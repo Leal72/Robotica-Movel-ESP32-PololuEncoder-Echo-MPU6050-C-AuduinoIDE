@@ -5,7 +5,7 @@ MPU6050 mpu;
 
 void setup() {
   Serial.begin(9600);
-  Wire.begin();
+  Wire.begin(2,4);
   mpu.initialize();
   Serial.println("MPU6050 inicializado com sucesso!");
 }
