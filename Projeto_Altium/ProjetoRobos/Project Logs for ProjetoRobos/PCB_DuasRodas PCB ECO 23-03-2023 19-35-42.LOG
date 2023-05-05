@@ -1,0 +1,26 @@
+Added Component: Designator=MPU6050(MPU6050)
+Add component. Clean all parameters for all variants
+Added Component: Designator=PonteH(SHIELDMD08AR)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=3v3 Pin=MPU6050-1
+Added Pin To Net: NetName=GND Pin=MPU6050-2
+Added Pin To Net: NetName=SCL Pin=MPU6050-3
+Added Pin To Net: NetName=SDA Pin=MPU6050-4
+Added Pin To Net: NetName=GND Pin=PonteH-1
+Added Pin To Net: NetName=3v3 Pin=PonteH-2
+Added Pin To Net: NetName=AO1 Pin=PonteH-3
+Added Pin To Net: NetName=AO2 Pin=PonteH-4
+Added Pin To Net: NetName=BO2 Pin=PonteH-5
+Added Pin To Net: NetName=BO1 Pin=PonteH-6
+Added Pin To Net: NetName=Vin Pin=PonteH-7
+Added Pin To Net: NetName=GND Pin=PonteH-8
+Added Pin To Net: NetName=GND Pin=PonteH-9
+Added Pin To Net: NetName=PWMB Pin=PonteH-10
+Added Pin To Net: NetName=BIN2 Pin=PonteH-11
+Added Pin To Net: NetName=BIN1 Pin=PonteH-12
+Added Pin To Net: NetName=STBY Pin=PonteH-13
+Added Pin To Net: NetName=AIN1 Pin=PonteH-14
+Added Pin To Net: NetName=AIN2 Pin=PonteH-15
+Added Pin To Net: NetName=PWMA Pin=PonteH-16
+Added Member To Class: ClassName=MainDuasRodas Member=Component MPU6050 Acelerometro
+Added Member To Class: ClassName=MainDuasRodas Member=Component PonteH Shield Ponte H Pololu

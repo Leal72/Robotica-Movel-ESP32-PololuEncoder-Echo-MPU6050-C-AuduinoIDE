@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [ProjetoRobos.PrjPcb]
+   Generated File[PCB_DuasRodas.TXT]
+   Generated File[PCB_DuasRodas.LDP]
+   Generated File[PCB_DuasRodas.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 21:27:02 On 23/03/2023

@@ -1,0 +1,7 @@
+Change Component Footprint: Designator=ECHO Old Footprint=XCVR_HC-SR04 New Footprint=Pin Header 4 Ways
+Change Component Comment : Designator=ECHO Old Comment=HC-SR04 New Comment=Pin Header
+Change component parameters: Designator = "ECHO"; Footprint = "Pin Header 4 Ways"; UniqueID = "\NUHPKLUD"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "Irwin Inc."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 1 PN"; Value = "M20-9992046"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Notes"; Value = ""; VariantName = "[No Variations]"

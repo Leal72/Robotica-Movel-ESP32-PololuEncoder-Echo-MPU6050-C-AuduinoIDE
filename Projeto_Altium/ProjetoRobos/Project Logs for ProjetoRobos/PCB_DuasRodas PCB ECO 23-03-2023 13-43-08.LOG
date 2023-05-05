@@ -1,0 +1,309 @@
+Added Component: Designator=C1(Cap Elec 100uF/16V)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Capacitance"; Value = "100uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://content.kemet.com/datasheets/KEM_A4004_ESK.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey PN"; Value = "399-6601-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1 PN"; Value = "ESK107M016AC3AA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser PN"; Value = "80-ESK107M016AC3AA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Notes"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "16V"; VariantName = "[No Variations]"
+Added Component: Designator=C2(CAP 10uF/16V)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Capacitance"; Value = "10uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/27/CL21A106KOQNNWE.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey PN"; Value = "1276-2894-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "Samsung Electro-Mechanics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1 PN"; Value = "CL21A106KOQNNWE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser PN"; Value = "710-885012107014"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Notes"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "16V"; VariantName = "[No Variations]"
+Added Component: Designator=C3(Cap Elec 100uF/16V)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Capacitance"; Value = "100uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://content.kemet.com/datasheets/KEM_A4004_ESK.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey PN"; Value = "399-6601-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1 PN"; Value = "ESK107M016AC3AA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser PN"; Value = "80-ESK107M016AC3AA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Notes"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "16V"; VariantName = "[No Variations]"
+Added Component: Designator=C4(CAP 10uF/16V)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Capacitance"; Value = "10uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/27/CL21A106KOQNNWE.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey PN"; Value = "1276-2894-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "Samsung Electro-Mechanics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1 PN"; Value = "CL21A106KOQNNWE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser PN"; Value = "710-885012107014"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Notes"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "16V"; VariantName = "[No Variations]"
+Added Component: Designator=D1(LED GREEN PTH STAND)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.cree.com/led-components/media/documents/C503B-BAS-BAN-BCS-BCN-GAS-GAN-GCS-GCN-1094.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey PN"; Value = "732-5020-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "Wurth Electronics Inc."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1 PN"; Value = "151053GS03000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser PN"; Value = "710-151053GS03000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Notes"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=ECHO(XCVR_HC-SR04)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "HC-SR04"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=EncoderA(CN_KK_4_5045-4)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Validação"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "?"; VariantName = "[No Variations]"
+Added Component: Designator=EncoderB(CN_KK_4_5045-4)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Validação"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "?"; VariantName = "[No Variations]"
+Added Component: Designator=ESP32(DIP30 - duplicate3)
+Add component. Clean all parameters for all variants
+Added Component: Designator=IO_Extra(CN_KK_4_5045-4)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Validação"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "?"; VariantName = "[No Variations]"
+Added Component: Designator=MotorA(KK_2VIAS_180º)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Descrição"; Value = "Conector KK 3 vias com passo 2.54mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Encapsulamento"; Value = "PTH - 180º"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Marca"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Modelo"; Value = "2 vias - 180º"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Observação"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Valor"; Value = "KK 2 vias 180º"; VariantName = "[No Variations]"
+Added Component: Designator=MotorB(KK_2VIAS_180º)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Descrição"; Value = "Conector KK 3 vias com passo 2.54mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Encapsulamento"; Value = "PTH - 180º"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Marca"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Modelo"; Value = "2 vias - 180º"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Observação"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Valor"; Value = "KK 2 vias 180º"; VariantName = "[No Variations]"
+Added Component: Designator=ON/OFF(CHAVE_GANGORRA_3PINS)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Descrição"; Value = "Chave Gangorra tipo KCD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Encapsulamento"; Value = "PTH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Marca"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Modelo"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Observação"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Valor"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=PinoutLeft(Pin Header 15 Ways)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "Irwin Inc."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1 PN"; Value = "M20-9992046"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Notes"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=PinoutRight(Pin Header 15 Ways)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "Irwin Inc."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1 PN"; Value = "M20-9992046"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Notes"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=Power_In(KK_2VIAS_180º)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Descrição"; Value = "Conector KK 3 vias com passo 2.54mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Encapsulamento"; Value = "PTH - 180º"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Marca"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Modelo"; Value = "2 vias - 180º"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Observação"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Valor"; Value = "KK 2 vias 180º"; VariantName = "[No Variations]"
+Added Component: Designator=Power_Out(KK_2VIAS_180º)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Descrição"; Value = "Conector KK 3 vias com passo 2.54mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Encapsulamento"; Value = "PTH - 180º"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Marca"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Modelo"; Value = "2 vias - 180º"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Observação"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Valor"; Value = "KK 2 vias 180º"; VariantName = "[No Variations]"
+Added Component: Designator=R1(RES SMD 2.2k OHM 1% 1/8W 0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey PN"; Value = "311-2.20KCRCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1 PN"; Value = "RC0805FR-072K2L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser PN"; Value = "603-RC0805FR-072K2L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Notes"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "1/8W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistence"; Value = "2.2k"; VariantName = "[No Variations]"
+Added Component: Designator=R2(RES SMD 470OHM 1% 1/8W 0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey PN"; Value = "311-10.0KCRCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1 PN"; Value = "RC0805FR-07470RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser PN"; Value = "603-RC0805FR-07470RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Notes"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "1/8W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistence"; Value = "470"; VariantName = "[No Variations]"
+Added Component: Designator=R3(RES SMD 270 OHM 1% 1/8W 0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey PN"; Value = "311-270CRCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1 PN"; Value = "RC0805FR-07270RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser PN"; Value = "603-RC0805FR-07270RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Notes"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "1/8W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistence"; Value = "270"; VariantName = "[No Variations]"
+Added Component: Designator=SPI_Extra(CN_KK_4_5045-4)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Validação"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "?"; VariantName = "[No Variations]"
+Added Component: Designator=UART_Extra(CN_KK_4_5045-4)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Validação"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "?"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3v3 Pin=ECHO-1
+Added Pin To Net: NetName=3v3 Pin=EncoderA-1
+Added Pin To Net: NetName=3v3 Pin=EncoderB-1
+Added Pin To Net: NetName=3v3 Pin=ESP32-16
+Added Pin To Net: NetName=3v3 Pin=IO_Extra-1
+Added Pin To Net: NetName=3v3 Pin=PinoutRight-15
+Added Pin To Net: NetName=3v3 Pin=SPI_Extra-1
+Added Pin To Net: NetName=3v3 Pin=UART_Extra-1
+Added Net: Name=3v3
+Added Pin To Net: NetName=AIN1 Pin=ESP32-9
+Added Net: Name=AIN1
+Added Pin To Net: NetName=AIN2 Pin=ESP32-8
+Added Pin To Net: NetName=AIN2 Pin=PinoutLeft-8
+Added Net: Name=AIN2
+Added Pin To Net: NetName=AO1 Pin=MotorA-1
+Added Net: Name=AO1
+Added Pin To Net: NetName=AO2 Pin=MotorA-2
+Added Net: Name=AO2
+Added Pin To Net: NetName=BIN1 Pin=ESP32-11
+Added Pin To Net: NetName=BIN1 Pin=PinoutLeft-11
+Added Net: Name=BIN1
+Added Pin To Net: NetName=BIN2 Pin=ESP32-12
+Added Net: Name=BIN2
+Added Pin To Net: NetName=BO1 Pin=MotorB-2
+Added Net: Name=BO1
+Added Pin To Net: NetName=BO2 Pin=MotorB-1
+Added Net: Name=BO2
+Added Pin To Net: NetName=E_A1 Pin=EncoderA-2
+Added Pin To Net: NetName=E_A1 Pin=ESP32-3
+Added Pin To Net: NetName=E_A1 Pin=PinoutLeft-3
+Added Net: Name=E_A1
+Added Pin To Net: NetName=E_A2 Pin=EncoderA-3
+Added Pin To Net: NetName=E_A2 Pin=ESP32-4
+Added Pin To Net: NetName=E_A2 Pin=PinoutLeft-4
+Added Net: Name=E_A2
+Added Pin To Net: NetName=E_B1 Pin=EncoderB-2
+Added Pin To Net: NetName=E_B1 Pin=ESP32-5
+Added Pin To Net: NetName=E_B1 Pin=PinoutLeft-5
+Added Net: Name=E_B1
+Added Pin To Net: NetName=E_B2 Pin=EncoderB-3
+Added Pin To Net: NetName=E_B2 Pin=ESP32-6
+Added Pin To Net: NetName=E_B2 Pin=PinoutLeft-6
+Added Net: Name=E_B2
+Added Pin To Net: NetName=Echo Pin=ECHO-3
+Added Pin To Net: NetName=Echo Pin=ESP32-29
+Added Pin To Net: NetName=Echo Pin=PinoutRight-2
+Added Net: Name=Echo
+Added Pin To Net: NetName=EN Pin=ESP32-1
+Added Pin To Net: NetName=EN Pin=PinoutLeft-1
+Added Net: Name=EN
+Added Pin To Net: NetName=GND Pin=C1-1
+Added Pin To Net: NetName=GND Pin=C2-1
+Added Pin To Net: NetName=GND Pin=C3-1
+Added Pin To Net: NetName=GND Pin=C4-1
+Added Pin To Net: NetName=GND Pin=D1-K
+Added Pin To Net: NetName=GND Pin=ECHO-4
+Added Pin To Net: NetName=GND Pin=EncoderA-4
+Added Pin To Net: NetName=GND Pin=EncoderB-4
+Added Pin To Net: NetName=GND Pin=ESP32-14
+Added Pin To Net: NetName=GND Pin=ESP32-17
+Added Pin To Net: NetName=GND Pin=IO_Extra-4
+Added Pin To Net: NetName=GND Pin=PinoutRight-14
+Added Pin To Net: NetName=GND Pin=Power_In-2
+Added Pin To Net: NetName=GND Pin=Power_Out-2
+Added Pin To Net: NetName=GND Pin=R3-1
+Added Pin To Net: NetName=GND Pin=SPI_Extra-4
+Added Pin To Net: NetName=GND Pin=UART_Extra-4
+Added Net: Name=GND
+Added Pin To Net: NetName=IO19 Pin=ESP32-25
+Added Pin To Net: NetName=IO19 Pin=IO_Extra-3
+Added Pin To Net: NetName=IO19 Pin=PinoutRight-6
+Added Net: Name=IO19
+Added Pin To Net: NetName=IO21 Pin=ESP32-26
+Added Pin To Net: NetName=IO21 Pin=IO_Extra-2
+Added Pin To Net: NetName=IO21 Pin=PinoutRight-5
+Added Net: Name=IO21
+Added Pin To Net: NetName=MISO Pin=ESP32-23
+Added Pin To Net: NetName=MISO Pin=PinoutRight-8
+Added Pin To Net: NetName=MISO Pin=SPI_Extra-3
+Added Net: Name=MISO
+Added Pin To Net: NetName=MOSI Pin=ESP32-24
+Added Pin To Net: NetName=MOSI Pin=PinoutRight-7
+Added Pin To Net: NetName=MOSI Pin=SPI_Extra-2
+Added Net: Name=MOSI
+Added Pin To Net: NetName=NetD1_A Pin=D1-A
+Added Pin To Net: NetName=NetD1_A Pin=R2-1
+Added Net: Name=NetD1_A
+Added Pin To Net: NetName=NetON/OFF_2 Pin=ON/OFF-2
+Added Pin To Net: NetName=NetON/OFF_2 Pin=Power_In-1
+Added Pin To Net: NetName=NetON/OFF_2 Pin=Power_Out-1
+Added Net: Name=NetON/OFF_2
+Added Pin To Net: NetName=PWMA Pin=ESP32-7
+Added Pin To Net: NetName=PWMA Pin=PinoutLeft-7
+Added Net: Name=PWMA
+Added Pin To Net: NetName=PWMB Pin=ESP32-13
+Added Pin To Net: NetName=PWMB Pin=PinoutLeft-13
+Added Net: Name=PWMB
+Added Pin To Net: NetName=RX0 Pin=ESP32-27
+Added Pin To Net: NetName=RX0 Pin=PinoutRight-4
+Added Net: Name=RX0
+Added Pin To Net: NetName=RX2 Pin=ESP32-21
+Added Pin To Net: NetName=RX2 Pin=PinoutRight-10
+Added Pin To Net: NetName=RX2 Pin=UART_Extra-3
+Added Net: Name=RX2
+Added Pin To Net: NetName=SCL Pin=ESP32-20
+Added Pin To Net: NetName=SCL Pin=PinoutRight-11
+Added Net: Name=SCL
+Added Pin To Net: NetName=SDA Pin=ESP32-19
+Added Pin To Net: NetName=SDA Pin=PinoutRight-12
+Added Net: Name=SDA
+Added Pin To Net: NetName=STBY Pin=ESP32-10
+Added Pin To Net: NetName=STBY Pin=PinoutLeft-10
+Added Net: Name=STBY
+Added Pin To Net: NetName=Trig Pin=ECHO-2
+Added Pin To Net: NetName=Trig Pin=ESP32-30
+Added Pin To Net: NetName=Trig Pin=PinoutRight-1
+Added Net: Name=Trig
+Added Pin To Net: NetName=TX0 Pin=ESP32-28
+Added Pin To Net: NetName=TX0 Pin=PinoutRight-3
+Added Net: Name=TX0
+Added Pin To Net: NetName=TX2 Pin=ESP32-22
+Added Pin To Net: NetName=TX2 Pin=PinoutRight-9
+Added Pin To Net: NetName=TX2 Pin=UART_Extra-2
+Added Net: Name=TX2
+Added Pin To Net: NetName=Vbat Pin=ESP32-18
+Added Pin To Net: NetName=Vbat Pin=PinoutRight-13
+Added Pin To Net: NetName=Vbat Pin=R1-1
+Added Pin To Net: NetName=Vbat Pin=R3-2
+Added Net: Name=Vbat
+Added Pin To Net: NetName=Vin Pin=C1-2
+Added Pin To Net: NetName=Vin Pin=C2-2
+Added Pin To Net: NetName=Vin Pin=C3-2
+Added Pin To Net: NetName=Vin Pin=C4-2
+Added Pin To Net: NetName=Vin Pin=ESP32-15
+Added Pin To Net: NetName=Vin Pin=ON/OFF-1
+Added Pin To Net: NetName=Vin Pin=PinoutLeft-15
+Added Pin To Net: NetName=Vin Pin=R1-2
+Added Pin To Net: NetName=Vin Pin=R2-2
+Added Net: Name=Vin
+Added Pin To Net: NetName=Vp Pin=ESP32-2
+Added Pin To Net: NetName=Vp Pin=PinoutLeft-2
+Added Net: Name=Vp
+Added Class: Name=MainDuasRodas

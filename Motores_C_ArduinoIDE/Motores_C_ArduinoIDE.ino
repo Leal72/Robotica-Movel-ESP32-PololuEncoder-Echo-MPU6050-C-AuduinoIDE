@@ -52,7 +52,7 @@ if (Serial.available() > 0) {
   MTB = 60;
   
   analogWrite(PWMA,MTA);
-  analogWrite(PWMB,MTB);;
+  analogWrite(PWMB,MTB);
 
   }
   //Tras

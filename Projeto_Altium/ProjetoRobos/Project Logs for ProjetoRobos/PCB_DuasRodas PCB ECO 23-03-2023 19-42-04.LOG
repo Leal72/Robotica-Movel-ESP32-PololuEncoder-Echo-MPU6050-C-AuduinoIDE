@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=Vin Pin=ON/OFF-1
+Change Component Footprint: Designator=ON/OFF Old Footprint=CHAVE_GANGORRA_3PINS New Footprint=SS12D00G4
+Change Component Comment : Designator=ON/OFF Old Comment=CHAVE GANGORRA 3PINS New Comment=SS12D00G4
+Change Component Designator: OldDesignator=D1 NewDesignator=ON
+Change component parameters: Designator = "On/Off"; Footprint = "SS12D00G4"; UniqueID = "\TFNKFQEJ"
+Change component parameters. Clean all parameters for all variants
+Added Pin To Net: NetName=Vin Pin=ON/OFF-2
+Added Pin To Net: NetName=Vin Pin=ON/OFF-3
+Change Net Name : Old Net Name=NetD1_A New Net Name=NetON_A
+Added Pin To Net: NetName=NetOn/Off_1 Pin=ON/OFF-1
+Added Pin To Net: NetName=NetOn/Off_1 Pin=Power_In-1
+Added Pin To Net: NetName=NetOn/Off_1 Pin=Power_Out-1
+Added Net: Name=NetOn/Off_1

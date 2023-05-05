@@ -1,0 +1,2 @@
+Change Component Designator: OldDesignator=Power_In NewDesignator=Vin
+Change Component Designator: OldDesignator=Power_Out NewDesignator=Vout

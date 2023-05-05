@@ -20,9 +20,11 @@ volatile signed long int M_Count2 = 0;
 unsigned long TempoUltimaInterrupcao = 0;
 int MTA = 0;
 int MTB = 0;
-const float M_Encoder_PulsosPorRev = 900.00;
+const float M_Encoder_PulsosPorRev = 450.00;
 // função para realizar a interrupção Motor 1
-void ICACHE_RAM_ATTR MotorEncoderEvent1() {
+
+
+void ICACHE_RAM_ATTR MotorEncoderEventRighA() {
   if (digitalRead(MOTOR1_ENCODER_A) == HIGH) {
     if (digitalRead(MOTOR1_ENCODER_B) == LOW) {
       M_Count1--;
@@ -37,8 +39,23 @@ void ICACHE_RAM_ATTR MotorEncoderEvent1() {
     }
   }
 }
-// função para realizar a interrupção no motor 2
-void ICACHE_RAM_ATTR MotorEncoderEvent2() {
+// void ICACHE_RAM_ATTR MotorEncoderEventRighB() {
+//   if (digitalRead(MOTOR1_ENCODER_B) == HIGH) {
+//     if (digitalRead(MOTOR1_ENCODER_A) == LOW) {
+//       M_Count1--;
+//     } else {
+//       M_Count1++;
+//     }
+//   } else {
+//     if (digitalRead(MOTOR1_ENCODER_A) == LOW) {
+//       M_Count1++;
+//     } else {
+//       M_Count1--;
+//     }
+//   }
+
+// // função para realizar a interrupção no motor 2
+void ICACHE_RAM_ATTR MotorEncoderEventlLeftA() {
   if (digitalRead(MOTOR2_ENCODER_A) == HIGH) {
     if (digitalRead(MOTOR2_ENCODER_B) == LOW) {
       M_Count2--;
@@ -53,6 +70,21 @@ void ICACHE_RAM_ATTR MotorEncoderEvent2() {
     }
   }
 }
+// void ICACHE_RAM_ATTR MotorEncoderEventlLeftB() {
+//   if (digitalRead(MOTOR2_ENCODER_A) == HIGH) {
+//     if (digitalRead(MOTOR2_ENCODER_B) == LOW) {
+//       M_Count2--;
+//     } else {
+//       M_Count2++;
+//     }
+//   } else {
+//     if (digitalRead(MOTOR2_ENCODER_B) == LOW) {
+//       M_Count2++;
+//     } else {
+//       M_Count2--;
+//     }
+//   }
+// }
 
 
 void setup() {
@@ -79,10 +111,12 @@ void setup() {
   analogWrite(PWMA,MTA);
   analogWrite(PWMB,MTB); 
 
-  attachInterrupt(digitalPinToInterrupt(MOTOR1_ENCODER_A), MotorEncoderEvent1, CHANGE);
-  attachInterrupt(digitalPinToInterrupt(MOTOR2_ENCODER_A), MotorEncoderEvent2, CHANGE);  
+  attachInterrupt(digitalPinToInterrupt(MOTOR1_ENCODER_A), MotorEncoderEventRighA, CHANGE);
+  // attachInterrupt(digitalPinToInterrupt(MOTOR1_ENCODER_B), MotorEncoderEventRighB, CHANGE);
+  attachInterrupt(digitalPinToInterrupt(MOTOR2_ENCODER_A), MotorEncoderEventlLeftA, CHANGE);
+  // attachInterrupt(digitalPinToInterrupt(MOTOR2_ENCODER_B), MotorEncoderEventlLeftB, CHANGE);   
           
-  Serial.begin(9600); 
+  Serial.begin(115200); 
   
 
 
@@ -97,47 +131,51 @@ void loop() {
   float Velocidade_Esquerda;
 
   // //Acionando motores RÉ
-  digitalWrite(MOTOR1_AIN1, HIGH);
-  digitalWrite(MOTOR1_AIN2, LOW);
-  digitalWrite(MOTOR2_BIN1, HIGH);
-  digitalWrite(MOTOR2_BIN2, LOW);  
-  MTA = 50;
-  MTB = 50; 
-  analogWrite(PWMA,MTA);
-  analogWrite(PWMB,MTB);
+  // digitalWrite(MOTOR1_AIN1, HIGH);
+  // digitalWrite(MOTOR1_AIN2, LOW);
+  // digitalWrite(MOTOR2_BIN1, HIGH);
+  // digitalWrite(MOTOR2_BIN2, LOW);  
+  // MTA = 255;
+  // MTB = 255; 
+  // analogWrite(PWMA,MTA);
+  // analogWrite(PWMB,MTB);
 
 
   //Acionando motores frente  
-  // digitalWrite(MOTOR1_AIN1, LOW);
-  // digitalWrite(MOTOR1_AIN2, HIGH);
-  // digitalWrite(MOTOR2_BIN1, LOW);
-  // digitalWrite(MOTOR2_BIN2, HIGH);  
-  // MTA = 50;
-  // MTB = 50; 
-  // analogWrite(PWMA,MTA);
-  // analogWrite(PWMB,MTB);
+    digitalWrite(MOTOR1_AIN1, LOW);
+    digitalWrite(MOTOR1_AIN2, HIGH);
+    digitalWrite(MOTOR2_BIN1, LOW);
+    digitalWrite(MOTOR2_BIN2, HIGH);  
+    MTA = 255;
+    MTB = 255; 
+    analogWrite(PWMA,MTA);
+    analogWrite(PWMB,MTB);
 
   
   if (TempoAtual - TempoUltimaInterrupcao >= 100) {
    
     
     detachInterrupt(digitalPinToInterrupt(MOTOR1_ENCODER_A));
-      M_Pulsos1 = M_Count1;    
+      M_Pulsos1 =  M_Count1;    
       M_Count1 = 0;
-    attachInterrupt(digitalPinToInterrupt(MOTOR1_ENCODER_A), MotorEncoderEvent1, CHANGE);
+    attachInterrupt(digitalPinToInterrupt(MOTOR1_ENCODER_A), MotorEncoderEventRighA, CHANGE);
     
-    Velocidade_Esquerda = abs((((M_Pulsos1 * 10) / M_Encoder_PulsosPorRev) * 60.0)/2);
+    Velocidade_Esquerda = abs((((M_Pulsos1 * 10) / M_Encoder_PulsosPorRev) * 60.0));
     
     detachInterrupt(digitalPinToInterrupt(MOTOR2_ENCODER_A));
       M_Pulsos2 = M_Count2;    
       M_Count2 = 0;
-    attachInterrupt(digitalPinToInterrupt(MOTOR2_ENCODER_A), MotorEncoderEvent2, CHANGE);
+    attachInterrupt(digitalPinToInterrupt(MOTOR2_ENCODER_A), MotorEncoderEventlLeftA, CHANGE);
     
-    Velocidade_Direita = abs((((M_Pulsos2 * 10) / M_Encoder_PulsosPorRev) * 60.0)/2);   
+    Velocidade_Direita = abs((((M_Pulsos2 * 10) / M_Encoder_PulsosPorRev) * 60.0));   
 
     TempoUltimaInterrupcao = TempoAtual;
   }
 
+// Serial.print("Contador Direita: ");
+// Serial.println(M_Count1);
+// Serial.print("Contador Esquerda: ");
+// Serial.println(M_Count2);
 Serial.print("Pulsos Direita: ");
 Serial.println(M_Pulsos1);
 Serial.print("Pulsos Esquerda: ");

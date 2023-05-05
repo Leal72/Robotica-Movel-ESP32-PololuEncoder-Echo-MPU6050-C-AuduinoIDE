@@ -1,0 +1,15 @@
+Added Component: Designator=C3(Cap Elec 100uF/16V)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Capacitance"; Value = "100uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://content.kemet.com/datasheets/KEM_A4004_ESK.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey PN"; Value = "399-6601-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1 PN"; Value = "ESK107M016AC3AA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser PN"; Value = "80-ESK107M016AC3AA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Notes"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "16V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C3-1
+Added Pin To Net: NetName=Vin Pin=C3-2
+Added Pin To Net: NetName=GND Pin=PinoutLeft-14
+Added Member To Class: ClassName=MainDuasRodas Member=Component C3 Cap Elec 100uF/16V

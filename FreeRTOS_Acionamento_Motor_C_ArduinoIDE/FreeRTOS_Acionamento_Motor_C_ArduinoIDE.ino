@@ -12,8 +12,8 @@
 TaskHandle_t tarefa1;
 TaskHandle_t tarefa2;
 
-const char* ssid     = "yourssid";
-const char* password = "yourpasswd";
+const char* ssid     = "LABRA";
+const char* password = "labra1234";
 
 WiFiServer server(80);
 
@@ -45,8 +45,8 @@ void setup()
 
     xTaskCreatePinnedToCore(controlePWM, "tarefa1", 10000, NULL, 0, &tarefa1, 0);    
     vTaskSuspend(tarefa1);
-    xTaskCreatePinnedToCore(controlePWM2, "tarefa2", 10000, NULL, 1, &tarefa2, 1);
-    vTaskSuspend(tarefa2);
+    // xTaskCreatePinnedToCore(controlePWM2, "tarefa2", 10000, NULL, 1, &tarefa2, 1);
+    // vTaskSuspend(tarefa2);
     
     // We start by connecting to a WiFi network
 
@@ -133,22 +133,19 @@ void controlePWM(void *pvParameters){
           digitalWrite(MOTOR1_AIN2, HIGH);
           digitalWrite(MOTOR2_BIN1, LOW);
           digitalWrite(MOTOR2_BIN2, HIGH);
-          
-        for (int fadeValue = 0; fadeValue <= 255; fadeValue += 5) {
-      
-        analogWrite(PWMA, fadeValue);
-        analogWrite(PWMB, fadeValue);
+          analogWrite(PWMA, 100);
+          analogWrite(PWMB, 100);
       
         delay(30);
         }
     }
 
   
-}
 
 
-void controlePWM2(void *pvParameters){
-    for(;;){
-      digitalWrite(STBY,HIGH); 
-    } 
-}
+
+// void controlePWM2(void *pvParameters){
+//     for(;;){
+//       digitalWrite(STBY,HIGH); 
+//     } 
+// }
